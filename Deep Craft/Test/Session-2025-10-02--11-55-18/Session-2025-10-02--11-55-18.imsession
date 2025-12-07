@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ImagimobStudio version="0.9">
+  <Timeline id="ec326d38-582c-4880-9f66-042cb6ea5aad">
+    <Tracks>
+      <Track name="Live Labeling" type="labelcsv">
+        <PayloadFile>Live-Labeling.label</PayloadFile>
+        <Shape />
+      </Track>
+      <Track name="Radar Data" type="datacsv" timecoded="TimestampBegin" isLabelTrack="False" frequency="200">
+        <PayloadFile>Radar-Data.data</PayloadFile>
+        <Offset unit="seconds">2.4999000000E-003</Offset>
+        <Shape>
+          <Axis name="Sample" size="128" />
+          <Axis name="Chirp" size="1" />
+          <Axis name="Antenna" size="1" />
+        </Shape>
+      </Track>
+      <Track name="Microphone Data" type="audiowav" isLabelTrack="False" frequency="16000">
+        <PayloadFile>Microphone-Data.wav</PayloadFile>
+        <Offset unit="seconds">3.1200000000E-005</Offset>
+        <Shape>
+          <Axis name="Channel" size="1">
+            <Label index="0">Mono</Label>
+          </Axis>
+        </Shape>
+      </Track>
+    </Tracks>
+  </Timeline>
+</ImagimobStudio>

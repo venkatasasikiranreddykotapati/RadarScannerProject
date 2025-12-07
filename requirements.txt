@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pyserial
+pandas
+scikit-learn
+filterpy
+-e .

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ImagimobStudio version="0.9">
+  <Timeline id="40f5473d-b040-46d5-acbd-4fd65fa25c09">
+    <Tracks>
+      <Track name="Radar Data" type="datacsv" timecoded="TimestampBegin" isLabelTrack="False" frequency="200">
+        <PayloadFile>Radar-Data.data</PayloadFile>
+        <Offset unit="seconds">2.4999000000E-003</Offset>
+        <Shape>
+          <Axis name="Sample" size="128" />
+          <Axis name="Chirp" size="1" />
+          <Axis name="Antenna" size="1" />
+        </Shape>
+      </Track>
+    </Tracks>
+  </Timeline>
+</ImagimobStudio>
